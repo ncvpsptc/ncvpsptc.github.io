@@ -1,1 +1,38 @@
+    body,
+		html {
+			height: 100%;
+			margin: 0px;
+			padding: 0px;
+		}
 
+		body {
+			background-color: #005;
+		}
+
+		h1 {
+			margin: 20px;
+			text-align: center;
+		}
+
+		p {
+			margin: 20px;
+		}
+
+		.header {
+			position: relative;
+			background-color: #005;
+			height: 100%;
+		}
+
+		.header h1 {
+			position: absolute;
+			top: 50%;
+			left: 50%;
+			text-align: center;
+			transform: translate(-50%, -50%);
+			text-align: center;
+			color: lime;
+      border: none;
+			padding: 50px;
+			border-radius: 30px;
+		}
